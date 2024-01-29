@@ -12,7 +12,7 @@ import datetime
     
 
 
-st.title("ニュースアクセスランキング")
+st.title("アクセス上位から世間の関心を知ろう")
 tab1, tab2, tab3 = st.tabs(["Yahoo", "NHK", "graph"])
 
 with tab1:
