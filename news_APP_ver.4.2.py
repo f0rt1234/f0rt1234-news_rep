@@ -219,30 +219,7 @@ with tab4:
 	- 長期間にわたりデータを取得し、それを保存するデータベース実装
 	
 	"""
-        
-        
-   app_difference = """  
-    	
-	news_APP:
-	
-	- 見出しあり
-	- 写真あり
-	- 記事の内容あり
 
-	Copyright-Free news_APP(著作権対策用 ):
-	
-	- 見出しなし
-	- 写真なし
-	- 記事の内容なし
-	- 記事の文字数をカウントする機能あり
-
-	DataFrame:
-	
-	- 記事の見出しなし
-	- 記事の文字数あり
-
-
-	"""
 	
 	
    st.markdown("<span style='font-size:24px;'>技術的な詳細:</span>", unsafe_allow_html=True)
@@ -252,10 +229,6 @@ with tab4:
    st.markdown("<span style='font-size:24px;'>課題と改善点:</span>", unsafe_allow_html=True)
    st.write(app_Challenges)
    st.divider()
-   
-   st.markdown("<span style='font-size:24px;'>news_APPとCopyright-Free news_APP(著作権対策用 ) との差異:</span>", unsafe_allow_html=True)
-   st.write(app_difference)
-   
 
    
    
