@@ -46,7 +46,7 @@ with tab1:
    	
 	見出し、カテゴリ、URL、画像が表示します
 	
-	ハイライト記事の詳細もエキスパンダ内で表示します
+	記事の詳細もエキスパンダ内で表示します
 </u>
 	""", unsafe_allow_html=True)
 
@@ -189,7 +189,7 @@ with tab4:
 
    app_technology = """
 
-	
+	- Python 3.10.12
 	- BeautifulSoup
 	- Streamlit
 	- Pandas DataFrame
